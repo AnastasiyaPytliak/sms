@@ -59,28 +59,6 @@ btn.addEventListener("click", (e) => {
   }
   printNumbers(60, 1);
 
-  // -----> ФЕТЧ ДЛЧ ОТПРАВКИ КОДА АПИ <-----
-  // const myHeaders = new Headers();
-  // myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
-
-  // const urlencoded = new URLSearchParams();
-  // urlencoded.append("user", "info@cvr.by");
-  // urlencoded.append("msisdn", `${tel}`);
-  // urlencoded.append("apikey", "x24wUAs2Udp0y4hPE8bg");
-  // urlencoded.append("text", `Ваш код: ${randomInt}`);
-
-  // const requestOptions = {
-  //   method: "POST",
-  //   headers: myHeaders,
-  //   body: urlencoded,
-  //   redirect: "follow"
-  // };
-
-  // fetch("https://cabinet.websms.by/api/send/sms", requestOptions)
-  //   .then((response) => response.text())
-  //   .then((result) => console.log(result))
-  //   .catch((error) => console.error(error));
-
   // ----->  ФЕТЧ ДЛЯ ОТПРАВКИ КОДА И НОМЕРА НА НАШ СЕРВЕР и ЗАПИСИ НОМЕРА + 3 ПОПЫТКИ <-----
   // в работе
 
